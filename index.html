@@ -7,6 +7,451 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
+    <header class="flex justify-around items-center max-w-[1440px] m-auto">
+        <div class="hidden lg:flex lg:gap-6">
+        <p>Booking</p>
+        <p>Facilities</p>
+        <p>About Us</p>
+        <p>Location</p>
+        <p>Contact</p>
+      
+        </div>
+          <p class="lg:hidden">☰</p>
+        <button class="text-white font-bold bg-[#24AB70] p-3.5 rounded-2xl">Login</button>
+    </header>
+    <section class="max-w-7xl mx-auto px-6 py-12 lg:py-20 bg-[#24AB700A] p-6 rounded-2xl">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-7 space-y-8">
+        <div class="space-y-4">
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
+            Find your perfect <br class="hidden lg:inline"> place to stay
+          </h1>
+          <p class="text-gray-500 text-base max-w-md">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+
+        <div class="flex items-center">
+          <button class="flex items-center gap-2 text-[#24AB70] font-medium hover:opacity-80 transition">
+            <span class="w-8 h-8 flex items-center justify-center bg-[#24AB70]/10 rounded-full">
+           
+            </span>
+            Watch video
+          </button>
+        </div>
+
+        <div class="bg-white p-4 shadow-xl shadow-gray-100 rounded-2xl lg:rounded-full border border-gray-100">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
+            
+            <div class="flex items-center gap-3 px-3 md:border-r border-gray-200">
+              <i data-lucide="map-pin" class="w-5 h-5 text-[#24AB70]"></i>
+              <div>
+                <label class="block text-xs font-semibold text-gray-400">Location</label>
+                <input type="text" placeholder="United States" class="w-full text-sm font-medium text-gray-800 focus:outline-none bg-transparent placeholder-gray-800">
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 px-3 md:border-r border-gray-200">
+              <i data-lucide="calendar" class="w-5 h-5 text-[#24AB70]"></i>
+              <div>
+                <label class="block text-xs font-semibold text-gray-400">Check in</label>
+                <input type="text" placeholder="10 Jun 2021" class="w-full text-sm font-medium text-gray-800 focus:outline-none bg-transparent placeholder-gray-800">
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 px-3 md:border-r border-gray-200">
+              <i data-lucide="calendar" class="w-5 h-5 text-[#24AB70]"></i>
+              <div>
+                <label class="block text-xs font-semibold text-gray-400">Check out</label>
+                <input type="text" placeholder="15 Jun 2021" class="w-full text-sm font-medium text-gray-800 focus:outline-none bg-transparent placeholder-gray-800">
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-2 px-3">
+              <div class="flex items-center gap-3">
+                <i data-lucide="user" class="w-5 h-5 text-[#24AB70]"></i>
+                <div>
+                  <label class="block text-xs font-semibold text-gray-400">Rooms for</label>
+                  <input type="text" placeholder="1 room, 2 guests" class="w-full text-sm font-medium text-gray-800 focus:outline-none bg-transparent placeholder-gray-800">
+                </div>
+              </div>
+              
+              <button class="bg-[#24AB70] hover:bg-[#1e945f] text-white p-3 md:p-4 rounded-xl md:rounded-full flex items-center justify-center gap-2 transition whitespace-nowrap shadow-md shadow-[#24AB70]/20">
+                <i data-lucide="search" class="w-5 h-5"></i>
+                <span class="md:hidden lg:inline text-sm font-medium px-1">Search</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5 grid grid-cols-12 gap-4 relative">
+        <div class="col-span-12">
+          <img src="./img/image (2).png" 
+               alt="" 
+               class="w-full h-[300px] lg:h-[400px] object-cover rounded-[2rem] shadow-md">
+        </div>
+       
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-12 gap-4">
+      <div class="space-y-3 max-w-xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">
+          Our most popular Hotels
+        </h2>
+        <p class="text-gray-400 text-sm leading-relaxed">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+      <div>
+        <a href="#" class="inline-flex items-center text-sm font-medium text-[#24AB70] hover:text-[#1d8a59] transition-colors group">
+          View All
+          <i data-lucide="chevron-right" class="w-4 h-4 ml-1 transform group-hover:translate-x-0.5 transition-transform"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <div class="bg-white rounded-[2rem] border border-gray-100 p-4 shadow-sm hover:shadow-md transition-shadow">
+        <div class="overflow-hidden rounded-[1.5rem] mb-5 aspect-[4/3]">
+          <img src="./img/2.png" 
+               alt="" 
+               class="w-full h-full object-cover">
+        </div>
+        <div class="px-2 space-y-3">
+          <div class="flex items-center gap-1.5 text-xs text-gray-400">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-[#24AB70]"></i>
+            <span>London NW8 7JT, England</span>
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 leading-snug">
+            Danubius Hotel Regents Park
+          </h3>
+          <div class="flex items-center justify-between pt-2">
+            <span class="text-sm font-bold text-gray-900">$200 <span class="text-xs font-normal text-gray-400">Par Night</span></span>
+            <div class="flex items-center gap-1">
+              <div class="flex text-amber-400">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+              </div>
+             <img src="./img/Group 10.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-[2rem] border border-gray-100 p-4 shadow-sm hover:shadow-md transition-shadow">
+        <div class="overflow-hidden rounded-[1.5rem] mb-5 aspect-[4/3]">
+          <img src="./img/img.png" 
+               alt="" 
+               class="w-full h-full object-cover">
+        </div>
+        <div class="px-2 space-y-3">
+          <div class="flex items-center gap-1.5 text-xs text-gray-400">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-[#24AB70]"></i>
+            <span>London W1D 3DH, England</span>
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 leading-snug">
+            The Resident Soho
+          </h3>
+          <div class="flex items-center justify-between pt-2">
+            <span class="text-sm font-bold text-gray-900">$200 <span class="text-xs font-normal text-gray-400">Par Night</span></span>
+            <div class="flex items-center gap-1">
+              <div class="flex text-amber-400">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+              </div>
+             <img src="./img/Group 10.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-[2rem] border border-gray-100 p-4 shadow-sm hover:shadow-md transition-shadow">
+        <div class="overflow-hidden rounded-[1.5rem] mb-5 aspect-[4/3]">
+          <img src="./img/oiu.png" 
+               alt="" 
+               class="w-full h-full object-cover">
+        </div>
+        <div class="px-2 space-y-3">
+          <div class="flex items-center gap-1.5 text-xs text-gray-400">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-[#24AB70]"></i>
+            <span>London SE1 9SG, England</span>
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 leading-snug">
+            London Bridge Hotel
+          </h3>
+          <div class="flex items-center justify-between pt-2">
+            <span class="text-sm font-bold text-gray-900">$200 <span class="text-xs font-normal text-gray-400">Par Night</span></span>
+            <div class="flex items-center gap-1">
+              <div class="flex text-amber-400">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+              </div>
+             <img src="./img/Group 10.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-4 space-y-6">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+          We do our best <br> facilities provide you
+        </h2>
+        <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+        </p>
+        <div>
+          <button class="bg-[#24AB70] hover:bg-[#1e945f] text-white text-sm font-medium px-6 py-3 rounded-full transition-all shadow-md shadow-[#24AB70]/20">
+            Contact Now
+          </button>
+        </div>
+      </div>
+
+      <div class="lg:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-6">
+        
+        <div class="bg-white rounded-2xl p-6 flex flex-col items-center text-center justify-center min-h-[140px] border border-gray-50/50 shadow-[0_10px_30px_-5px_rgba(0,0,0,0.05)] hover:shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+          <div class="text-[#24AB70] mb-3">
+            <i data-lucide="briefcase" class="w-6 h-6"></i>
+          </div>
+          <img src="./img/workspace 1.png" alt="">
+          <span class="text-xs font-semibold text-gray-700">Private Workspace</span>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 flex flex-col items-center text-center justify-center min-h-[140px] border border-gray-50/50 shadow-[0_10px_30px_-5px_rgba(0,0,0,0.05)] hover:shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+          <div class="text-[#24AB70] mb-3">
+            <i data-lucide="circle-p" class="w-6 h-6"></i>
+          </div>
+          <img src="./img/parking-area (1) 1.png" alt="">
+          <span class="text-xs font-semibold text-gray-700">Parking Area</span>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 flex flex-col items-center text-center justify-center min-h-[140px] border border-gray-50/50 shadow-[0_10px_30px_-5px_rgba(0,0,0,0.05)] hover:shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+          <div class="text-[#24AB70] mb-3">
+            <i data-lucide="coffee" class="w-6 h-6"></i>
+          </div>
+          <img src="./img/cappuccino 1.png" alt="">
+          <span class="text-xs font-semibold text-gray-700">Breakfast</span>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 flex flex-col items-center text-center justify-center min-h-[140px] border border-gray-50/50 shadow-[0_10px_30px_-5px_rgba(0,0,0,0.05)] hover:shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+          <div class="text-[#24AB70] mb-3">
+            <i data-lucide="wifi" class="w-6 h-6"></i>
+          </div>
+          <img src="./img/wifi (2) 1.png" alt="">
+          <span class="text-xs font-semibold text-gray-700">Free Wifi</span>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 flex flex-col items-center text-center justify-center min-h-[140px] border border-gray-50/50 shadow-[0_10px_30px_-5px_rgba(0,0,0,0.05)] hover:shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+          <div class="text-[#24AB70] mb-3">
+            <i data-lucide="zap" class="w-6 h-6"></i>
+          </div>
+          <img src="./img/flash (1) 1.png" alt="">
+          <span class="text-xs font-semibold text-gray-700">Free Electricity</span>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 flex flex-col items-center text-center justify-center min-h-[140px] border border-gray-50/50 shadow-[0_10px_30px_-5px_rgba(0,0,0,0.05)] hover:shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+          <div class="text-[#24AB70] mb-3">
+            <i data-lucide="waves" class="w-6 h-6"></i>
+          </div>
+          <img src="./img/swimmer 1.png" alt="">
+          <span class="text-xs font-semibold text-gray-700">Swimming Pool</span>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 flex flex-col items-center text-center justify-center min-h-[140px] border border-gray-50/50 shadow-[0_10px_30px_-5px_rgba(0,0,0,0.05)] hover:shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+          <div class="text-[#24AB70] mb-3">
+            <i data-lucide="dumbbell" class="w-6 h-6"></i>
+          </div>
+          <img src="./img/dumbell 1.png" alt="">
+          <span class="text-xs font-semibold text-gray-700">Exercise Space</span>
+        </div>
+
+        <div class="bg-white rounded-2xl p-6 flex flex-col items-center text-center justify-center min-h-[140px] border border-gray-50/50 shadow-[0_10px_30px_-5px_rgba(0,0,0,0.05)] hover:shadow-[0_15px_35px_-5px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+          <div class="text-[#24AB70] mb-3">
+            <i data-lucide="more-horizontal" class="w-6 h-6"></i>
+          </div>
+          <img src="./img/ellipsis 1.png" alt="">
+          <span class="text-xs font-semibold text-gray-700">Other Service</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 items-stretch">
+      
+      <div class="lg:col-span-6 relative min-h-[350px] lg:min-h-full">
+        <img src="./img/second.png" 
+             alt="" 
+             class="w-full h-full object-cover rounded-t-[2rem] lg:rounded-tr-none lg:rounded-l-[2rem]">
+      </div>
+
+      <div class="lg:col-span-6 bg-[#F8F9FA] p-8 sm:p-12 lg:p-16 flex flex-col justify-center rounded-b-[2rem] lg:rounded-bl-none lg:rounded-r-[2rem]">
+        <div class="max-w-md space-y-6">
+          
+          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 tracking-tight">
+            Discover our History
+          </h2>
+          
+          <div class="space-y-4 text-sm text-gray-400 leading-relaxed">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+            </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+          </div>
+          
+          <div class="pt-2">
+            <button class="bg-[#24AB70] hover:bg-[#1e945f] text-white text-sm font-medium px-8 py-3.5 rounded-full transition-all shadow-md shadow-[#24AB70]/20">
+              Explore More
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="max-w-4xl mx-auto px-6 py-12 w-full">
+    <div class="bg-white rounded-2xl shadow-[0_15px_40px_-15px_rgba(0,0,0,0.06)] border border-gray-100 overflow-hidden">
+      <div class="grid grid-cols-1 md:grid-cols-12 items-center">
+        
+        <div class="p-8 sm:p-12 md:col-span-7 space-y-6 relative">
+          
+          <span class="text-6xl font-serif text-[#24AB70] absolute top-6 left-6 opacity-20 select-none">“</span>
+          
+          <div class="space-y-4 relative z-10">
+            <p class="text-gray-500 text-sm sm:text-base leading-relaxed italic">
+              “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.”
+            </p>
+        </div>
+      
+
+          <div class="pt-2">
+            <h4 class="font-bold text-gray-950 text-base">
+              Alexandr Ivchenko
+            </h4>
+            <p class="text-xs text-gray-400 font-medium">
+              Businessmen
+            </p>
+          </div>
+        </div>
+
+        <div class="md:col-span-5 h-full min-h-[300px] md:min-h-[380px] w-full bg-gray-100 relative">
+          <img src="./img/Mask Group (1).png" 
+               alt="" 
+               class="w-full h-full object-cover object-top md:rounded-l-2xl">
+        </div>
+
+      </div>
+    </div>
+  </section>
+ 
+
+  <section class="max-w-4xl w-full h-[400px] rounded-[2rem] relative overflow-hidden shadow-sm border border-gray-200/50 m-auto">
+    
+    <img src="./img/map.png" 
+         alt="" 
+         class="w-full h-full object-cover absolute inset-0 select-none pointer-events-none brightness-[0.98] contrast-[0.95]">
+    
+    <div class="absolute inset-0 bg-gray-900/5 mix-blend-multiply"></div>
+
+    <div class="absolute inset-0 flex items-end justify-center p-6 sm:p-8">
+      
+      <div class="bg-white/95 backdrop-blur-md w-full max-w-2xl rounded-2xl sm:rounded-full p-4 sm:px-8 sm:py-4 shadow-[0_20px_50px_-20px_rgba(0,0,0,0.15)] border border-white/60 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        
+        <div class="space-y-1">
+          <h3 class="text-base sm:text-lg font-bold text-gray-900 tracking-tight">
+            Location of our Hotelos
+          </h3>
+          <p class="text-xs text-gray-400 font-medium leading-normal max-w-sm">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+
+        <div class="flex-shrink-0 flex items-center gap-2">
+            <p class="bg-[#FAFAFA] p-3.5 rounded-2xl text-[gray]">Enter your email</p>
+          <button class="w-full sm:w-auto bg-[#24AB70] hover:bg-[#1e945f] text-white text-xs font-semibold px-6 py-3 rounded-xl sm:rounded-full transition-all shadow-md shadow-[#24AB70]/20 whitespace-nowrap">
+            Contact
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <footer class="max-w-7xl mx-auto px-6 py-16 border-t border-gray-100">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12">
+      
+      <div class="md:col-span-4 space-y-6">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 bg-[#24AB70] rounded-full flex items-center justify-center text-white font-bold text-sm">H</div>
+          <span class="text-xl font-bold text-gray-900">Hotelos</span>
+        </div>
+        <p class="text-sm text-gray-400 leading-relaxed max-w-sm">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <div class="flex items-center gap-4 text-gray-400">
+          <a href="#" class="hover:text-[#24AB70] transition-colors"><i class="fa-brands fa-facebook-f text-lg"></i></a>
+          <a href="#" class="hover:text-[#24AB70] transition-colors"><i class="fa-brands fa-instagram text-lg"></i></a>
+          <a href="#" class="hover:text-[#24AB70] transition-colors"><i class="fa-brands fa-twitter text-lg"></i></a>
+        </div>
+      </div>
+
+      <div class="md:col-span-2 space-y-4">
+        <h4 class="text-base font-bold text-gray-900">Home</h4>
+        <ul class="space-y-2.5 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">Booking</a></li>
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">Facilities</a></li>
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">Location</a></li>
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-2 space-y-4">
+        <h4 class="text-base font-bold text-gray-900">Help</h4>
+        <ul class="space-y-2.5 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">About Us</a></li>
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">Help center</a></li>
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">Privacy policy</a></li>
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-4 space-y-4">
+        <h4 class="text-base font-bold text-gray-900">Get the app</h4>
+        <ul class="space-y-2.5 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">iOS app</a></li>
+          <li><a href="#" class="hover:text-[#24AB70] transition-colors">Android app</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
     
 </body>
 </html>
